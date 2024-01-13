@@ -1,0 +1,12 @@
+.header__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+}

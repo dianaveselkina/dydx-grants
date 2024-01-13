@@ -1,6 +1,7 @@
 import React from 'react';
 import { ReactComponent as Logo } from './img/Logo.svg';
 import { Button } from '../Button/Button';
+import './index.css';
 
 export const Header = () => {
   return (
@@ -25,9 +26,9 @@ export const Header = () => {
               <li>
                 <a href="/">FAQ</a>
               </li>
+              <Button />
             </ul>
           </nav>
-          <Button />
         </div>
       </div>
     </header>
