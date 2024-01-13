@@ -15,16 +15,25 @@ export const Hero = () => {
         </div>
         <div className="hero__info">
           <div>
-            <p>100+</p>
-            <p>projects funded</p>
+            <p className="hero__text">
+              100+
+              <br />
+              <span>projects funded</span>
+            </p>
           </div>
           <div>
-            <p>$3+ milion</p>
-            <p>awarded</p>
+            <p className="hero__text">
+              $3+ milion
+              <br />
+              <span>awarded</span>
+            </p>
           </div>
           <div>
-            <p>400+</p>
-            <p>projects funded</p>
+            <p className="hero__text">
+              400+
+              <br />
+              <span>projects funded</span>
+            </p>
           </div>
         </div>
       </div>
