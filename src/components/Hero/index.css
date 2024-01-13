@@ -1,0 +1,15 @@
+.hero__title {
+  text-align: center;
+  font-family: Circular Std;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 88px;
+  padding: 80px 316px 40px 316px;
+}
+.hero__btn {
+  display: flex;
+  flex-direction: row;
+  max-width: 808px;
+  align-items: center;
+}

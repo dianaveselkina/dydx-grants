@@ -9,8 +9,10 @@ export const Hero = () => {
         <h1 className="hero__title">
           Powering the future of dYdX through community grants
         </h1>
-        <Button />
-        <Button />
+        <div className="hero__btn">
+          <Button />
+          <Button />
+        </div>
         <div className="hero__info">
           <div>
             <p>100+</p>
