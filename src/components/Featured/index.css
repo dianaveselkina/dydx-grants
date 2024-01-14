@@ -17,6 +17,7 @@
   line-height: 24px;
   margin: 0 auto;
   max-width: 600px;
+  padding: 16px 0 24px;
 }
 .featured__cards {
   display: flex;
@@ -24,17 +25,20 @@
   justify-content: space-evenly;
 }
 .featured__card {
+  position: relative;
   display: flex;
   max-width: 392px;
   height: 560px;
   flex-direction: column;
   align-items: flex-start;
   border-radius: 16px;
-  border: 1px solid #fff;
+  border: 0.1px solid #a59eba;
+  gap: 24px;
   background: #393953;
   padding: 24px;
+  margin-bottom: 80px;
 }
-.featured__card > p {
+.card__text {
   color: #a59eba;
   font-family: Space Mono;
   font-size: 16px;
@@ -48,4 +52,24 @@
   font-style: normal;
   font-weight: 450;
   line-height: 24px;
+}
+.card__empty {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 16px;
+  width: 389px;
+  height: 178px;
+  background-color: #1c1c28;
+}
+.featured__wrapper {
+  padding-top: 180px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.featured__btn {
+  background-color: #1c1c28;
+  color: #6966ff;
+  margin-bottom: 80px;
 }
