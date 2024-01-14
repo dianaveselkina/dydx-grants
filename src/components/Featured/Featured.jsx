@@ -27,9 +27,7 @@ export const Featured = () => {
               different assets and historical analysis of changing rates. It
               will also include API functionalities to allow developer access.
             </p>
-            <div className="card__avatar">
-              <img src="./img/Avatar1.png" alt="avatar"></img>
-            </div>
+            <div className="card__avatar1"></div>
           </div>
           <div className="featured__card">
             <div className="card__empty"></div>
@@ -44,9 +42,7 @@ export const Featured = () => {
                 to tap into Tradingview resources and test out different ...
               </p>
             </div>
-            <div className="card__avatar">
-              <img src="./img/Avatar2.png" alt="avatar"></img>
-            </div>
+            <div className="card__avatar2"></div>
           </div>
           <div className="featured__card">
             <p className="card__text">Entry</p>
@@ -58,9 +54,7 @@ export const Featured = () => {
               maximization. The paper will be marketed across several platforms
               and shared among trading circles to help readership.
             </p>
-            <div className="card__avatar">
-              <img src="./img/Avatar3.png" alt="avatar"></img>
-            </div>
+            <div className="card__avatar3"></div>
           </div>
         </div>
       </div>

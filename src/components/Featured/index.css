@@ -58,7 +58,7 @@
   top: 0;
   left: 0;
   border-radius: 16px;
-  width: 389px;
+  width: 385px;
   height: 178px;
   background-color: #1c1c28;
 }
@@ -73,4 +73,25 @@
   color: #6966ff;
   margin-bottom: 80px;
   border: 0;
+}
+.card__avatar1 {
+  background-image: url(./img/avatar1.png);
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 40px;
+  margin-top: 130px;
+}
+.card__avatar2 {
+  background-image: url(./img/avatar2.png);
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 40px;
+  margin-top: 70px;
+}
+.card__avatar3 {
+  background-image: url(./img/avatar3.png);
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 40px;
+  margin-top: 156px;
 }
