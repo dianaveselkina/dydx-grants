@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.css';
-import { Button } from '../Button/Button';
 
 export const Featured = () => {
   return (
@@ -13,7 +12,7 @@ export const Featured = () => {
         </p>
         <div className="hero__btn">
           <button className="featured__btn">
-            <span>View all funded projects </span>
+            <span>View all funded projects</span>
           </button>
         </div>
         <div className="featured__cards">
