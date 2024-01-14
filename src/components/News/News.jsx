@@ -18,15 +18,19 @@ export const News = () => {
         <div className="news__cards">
           <div className="news__card">
             <div className="new__image"></div>
-            <p className="news__text1">Funding round</p>
-            <h3>Round 9 of approvals</h3>
-            <p className="news__text1">January 1, 2022</p>
+            <div className="news__wrapper">
+              <p className="news__text1">Funding round</p>
+              <h3>Round 9 of approvals</h3>
+              <p className="news__text1">January 1, 2022</p>
+            </div>
           </div>
           <div className="news__card">
             <div className="new__image1"></div>
-            <p className="news__text1">Funding round</p>
-            <h3>Round 8 of approvals</h3>
-            <p className="news__text1">January 1, 2022</p>
+            <div className="news__wrapper">
+              <p className="news__text1">Funding round</p>
+              <h3>Round 8 of approvals</h3>
+              <p className="news__text1">January 1, 2022</p>
+            </div>
           </div>
         </div>
       </div>
