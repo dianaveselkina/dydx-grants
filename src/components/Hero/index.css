@@ -5,7 +5,9 @@
   font-style: normal;
   font-weight: 700;
   line-height: 88px;
-  padding: 80px 316px 40px 316px;
+  max-width: 808px;
+  margin: 0 auto;
+  padding: 80px 0 40px 0;
 }
 .hero__btn {
   display: flex;

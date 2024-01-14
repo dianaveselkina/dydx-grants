@@ -10,8 +10,8 @@ export const Hero = () => {
           Powering the future of dYdX through community grants
         </h1>
         <div className="hero__btn">
-          <Button />
-          <Button />
+          <Button text="Discover RFPs" />
+          <Button text="Apply for grant" />
         </div>
         <div className="hero__info">
           <div>

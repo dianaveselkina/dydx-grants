@@ -1,9 +1,7 @@
 import React from 'react';
 import './index.css';
-export const Button = () => {
-  return (
-    <button className="header__button">
-      <span>Apply for grant</span>
-    </button>
-  );
+export const Button = ({ ...props }) => {
+  const { text = '' } = props;
+
+  return <button className="button">{text}</button>;
 };
