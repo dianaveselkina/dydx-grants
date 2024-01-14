@@ -20,13 +20,13 @@ export const News = () => {
             <img src="./img/new-img1.png" alt="scheme"></img>
             <p className="news__text1">Funding round</p>
             <h3>Round 9 of approvals</h3>
-            <p className="news__text">January 1, 2022</p>
+            <p className="news__text1">January 1, 2022</p>
           </div>
           <div className="news__card">
             <img src="./img/new-img2.png" alt="scheme"></img>
             <p className="news__text1">Funding round</p>
             <h3>Round 8 of approvals</h3>
-            <p className="news__text">January 1, 2022</p>
+            <p className="news__text1">January 1, 2022</p>
           </div>
         </div>
       </div>
