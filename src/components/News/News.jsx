@@ -24,7 +24,6 @@ export const News = () => {
           </div>
           <div className="news__card">
             <div className="new__image1"></div>
-            <img src="./img/new-img2.png" alt="scheme"></img>
             <p className="news__text1">Funding round</p>
             <h3>Round 8 of approvals</h3>
             <p className="news__text1">January 1, 2022</p>
