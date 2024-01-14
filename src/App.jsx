@@ -3,6 +3,7 @@ import { Featured } from './components/Featured/Featured';
 import { Footer } from './components/Footer/Footer';
 import { Header } from './components/Header/Header';
 import { Hero } from './components/Hero/Hero';
+import { News } from './components/News/News';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Hero />
       <Featured />
+      <News />
       <Footer />
     </div>
   );
