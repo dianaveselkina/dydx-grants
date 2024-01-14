@@ -1,0 +1,51 @@
+.featured__title {
+  text-align: center;
+  font-family: Circular Std;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 0 auto;
+}
+.featured__text {
+  color: #c8c7d8;
+  text-align: center;
+  font-family: Circular Std;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+.featured__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.featured__card {
+  display: flex;
+  max-width: 392px;
+  height: 560px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 16px;
+  border: 1px solid #fff;
+  background: #393953;
+  padding: 24px;
+}
+.featured__card > p {
+  color: #a59eba;
+  font-family: Space Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.card__info {
+  font-family: Circular Std;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 24px;
+}

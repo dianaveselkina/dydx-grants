@@ -32,7 +32,7 @@ export const Featured = () => {
             <p>Edition</p>
             <h3>Tradingview integration</h3>
             <p>Funding amount: $5,000 - $6,000</p>
-            <p>
+            <p className="card__info">
               The grant will be used to build a web application that integrates
               Tradingview strategies into a dYdX Trading account to execute
               trades directly through a strategy. Users will be able to tap into
