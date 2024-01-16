@@ -5,6 +5,7 @@ import { Frequently } from './components/Frequently/Frequently';
 import { Header } from './components/Header/Header';
 import { Hero } from './components/Hero/Hero';
 import { News } from './components/News/News';
+import { Process } from './components/Process/Process';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Featured />
       <News />
       <Frequently />
+      <Process />
       <Footer />
     </div>
   );
