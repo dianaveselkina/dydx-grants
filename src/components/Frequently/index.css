@@ -1,0 +1,44 @@
+.frequently__title {
+  text-align: center;
+  font-family: Circular Std;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 0 auto;
+  padding: 80px 0 24px;
+}
+.frequently__text {
+  color: #c8c7d8;
+  text-align: center;
+  font-family: Circular Std;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 16px 0 80px;
+}
+.frequently__block {
+  max-width: 808px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+.block__hr {
+  height: 1px;
+  border: 1px solid #393953;
+}
+.block__ask {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.block__ask {
+  padding: 24px 0 24px;
+  font-family: Circular Std;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 24px;
+}

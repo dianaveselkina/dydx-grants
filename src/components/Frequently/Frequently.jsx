@@ -11,36 +11,44 @@ export const Frequently = () => {
           risus, consectetur ut bibendum non, gravida non libero.
         </p>
         <div className="frequently__block">
+          <hr className="block__hr" />
           <div className="block__ask">
             <p>How do I apply?</p>
             <span>+</span>
           </div>
+          <hr className="block__hr" />
           <div className="block__ask">
             <p>Can I apply as a U.S. based person/company?</p>
             <span>+</span>
           </div>
+          <hr className="block__hr" />
           <div className="block__ask">
             <p>How will I be compensated?</p>
             <span>+</span>
           </div>
+          <hr className="block__hr" />
           <div className="block__ask">
             <p>What type of project will qualify for a Grant?</p>
             <span>+</span>
           </div>
+          <hr className="block__hr" />
           <div className="block__ask">
             <p>
               What is the application timeline? When can I expect to hear back?
             </p>
             <span>+</span>
           </div>
+          <hr className="block__hr" />
           <div className="block__ask">
             <p>How can I increase my chances of getting funded?</p>
             <span>+</span>
           </div>
+          <hr className="block__hr" />
           <div className="block__ask">
             <p>How often do you approve new Rounds of funding?</p>
             <span>+</span>
           </div>
+          <hr className="block__hr" />
         </div>
       </div>
     </div>
