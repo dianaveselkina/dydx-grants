@@ -1,4 +1,5 @@
 import './App.css';
+import { Creation } from './components/Creation/Creation';
 import { Featured } from './components/Featured/Featured';
 import { Footer } from './components/Footer/Footer';
 import { Frequently } from './components/Frequently/Frequently';
@@ -16,6 +17,7 @@ function App() {
       <News />
       <Frequently />
       <Process />
+      <Creation />
       <Footer />
     </div>
   );

@@ -1,0 +1,30 @@
+.creation__block {
+  max-width: 1224px;
+  height: 248px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  background: linear-gradient(
+    326deg,
+    #6966ff 24.5%,
+    rgba(105, 102, 255, 0.36) 117.69%
+  );
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0 40px;
+}
+.creation__title {
+  font-family: Circular Std;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  padding: 10px 0 40px;
+}
+.creation__block > p {
+  font-family: Circular Std;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 24px;
+}
