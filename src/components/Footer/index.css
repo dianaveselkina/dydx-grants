@@ -1,0 +1,29 @@
+.footer__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 160px 80px 49px;
+}
+.footer__logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+}
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+.footer__link {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  color: #c8c7d8;
+  font-family: Space Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}

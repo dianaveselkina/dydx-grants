@@ -9,36 +9,36 @@ export const Footer = () => {
     <footer className="footer">
       <div className="container">
         <div className="footer__wrapper">
-          <LogoFooter />
-          <nav className="footer__nav">
-            <ul class="nav__list">
-              <li>
-                <a href="/">About</a>
-              </li>
-              <li>
-                <a href="/">FAQ</a>
-              </li>
-              <li>
-                <a href="/">Brand assets</a>
-              </li>
-              <li>
-                <a href="/">
-                  dYdX Foundation
+          <div className="footer__logo">
+            <LogoFooter />
+            <nav className="footer__nav">
+              <ul class="nav__list">
+                <li>
+                  <a className="footer__link" href="/">
+                    About
+                  </a>
+                </li>
+                <li className="footer__link">
+                  <a href="/">FAQ</a>
+                </li>
+                <li className="footer__link">
+                  <a href="/">Brand assets</a>
+                </li>
+                <li className="footer__link">
+                  <a href="/">dYdX Foundation</a>
                   <Arrow />
-                </a>
-              </li>
-              <li>
-                <a href="/">
-                  dYdX trading
+                </li>
+                <li className="footer__link">
+                  <a href="/">dYdX trading</a>
                   <Arrow />
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div className="footer__social">
-          <Twitter />
-          <Discord />
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div className="footer__social">
+            <Twitter />
+            <Discord />
+          </div>
         </div>
       </div>
     </footer>
