@@ -75,21 +75,21 @@
   border: 0;
 }
 .card__avatar1 {
-  background-image: url(./img/avatar1.png);
+  background-image: url(./img/avatar1.jpg);
   background-repeat: no-repeat;
   width: 90px;
   height: 40px;
   margin-top: 123px;
 }
 .card__avatar2 {
-  background-image: url(./img/avatar2.png);
+  background-image: url(./img/avatar2.jpg);
   background-repeat: no-repeat;
   width: 90px;
   height: 40px;
   margin-top: 62px;
 }
 .card__avatar3 {
-  background-image: url(./img/avatar3.png);
+  background-image: url(./img/avatar3.jpg);
   background-repeat: no-repeat;
   width: 90px;
   height: 40px;
