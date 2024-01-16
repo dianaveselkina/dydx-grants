@@ -1,0 +1,49 @@
+.process__title {
+  text-align: center;
+  font-family: Circular Std;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 0 auto;
+}
+.process__text {
+  color: #c8c7d8;
+  text-align: center;
+  font-family: Circular Std;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 16px 0 24px;
+}
+.process__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+  padding: 60px 0 54px;
+}
+.process__card {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 392px;
+  height: 480px;
+  border-radius: 16px;
+  border: 1px solid #fff;
+  background: #393953;
+  transform: rotate(30deg);
+}
+.card1 {
+  transform: rotate(-1deg);
+}
+.card2 {
+  transform: rotate(2deg);
+}
+.card3 {
+  transform: rotate(-2deg);
+}
