@@ -8,5 +8,5 @@
 
 
 
-![Главная страница](https://github.com/dianaveselkina/HH-SOFT/blob/main/HH-SOFT.jpg)
-![Кейсы](https://github.com/dianaveselkina/HH-SOFT/blob/main/HH-SOFT1.jpg)
+![Главная страница](https://github.com/dianaveselkina/dydx-grants/commit/63ba291577b3e3ced24fc94f18ea3bf71f358c4c)
+
