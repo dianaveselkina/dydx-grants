@@ -12,7 +12,9 @@ export const Card = () => {
         </p>
         <span className="card__text">Funding amount: $25,000 - $40,000</span>
       </div>
-      <Button />
+      <div className="card__btn">
+        <Button text="Funded" />
+      </div>
     </div>
   );
 };
