@@ -1,6 +1,8 @@
 import React from 'react';
 import { ReactComponent as Logo } from './img/Logo.svg';
 import { Button } from '../Button/Button';
+import { Link } from 'react-router-dom';
+
 import './index.css';
 
 export const Header = () => {
@@ -12,7 +14,7 @@ export const Header = () => {
           <nav className="header__nav">
             <ul class="nav__list">
               <li>
-                <a href="/">Discover initiatives</a>
+                <Link to="/discovers">Discover initiatives</Link>
               </li>
               <li>
                 <a href="/">Funded grants</a>
