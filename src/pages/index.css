@@ -34,6 +34,13 @@
   gap: 4px;
   background-color: #1c1c28;
 }
-.button1 {
+.discovers__btn:hover {
   background: #393953;
+}
+
+.discovers__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-bottom: 160px;
 }
