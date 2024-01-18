@@ -36,12 +36,14 @@
 .new__image {
   background-image: url(./img/new-img1.png);
   background-repeat: no-repeat;
+  background-size: 99%;
   width: 392px;
   height: 222px;
 }
 .new__image1 {
   background-image: url(./img/new-img2.png);
   background-repeat: no-repeat;
+  background-size: 99%;
   width: 392px;
   height: 222px;
 }
