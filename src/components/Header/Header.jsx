@@ -10,7 +10,9 @@ export const Header = () => {
     <header className="header">
       <div className="container">
         <div className="header__wrapper">
-          <Logo />
+          <Link to="/">
+            <Logo />
+          </Link>
           <nav className="header__nav">
             <ul class="nav__list">
               <li>
