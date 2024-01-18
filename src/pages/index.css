@@ -1,0 +1,39 @@
+.discovers__title {
+  text-align: center;
+  font-family: 'Circular Std';
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  margin: 0 auto;
+  padding: 80px 0 24px;
+}
+.discovers__text {
+  max-width: 808px;
+  text-align: center;
+  font-family: 'Circular Std';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 auto;
+}
+.discovers__filter {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  max-width: 395px;
+  padding: 40px 0 80px;
+  margin: 0 auto;
+}
+.discovers__btn {
+  display: flex;
+  padding: 12px 16px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+  background-color: #1c1c28;
+}
+.button1 {
+  background: #393953;
+}

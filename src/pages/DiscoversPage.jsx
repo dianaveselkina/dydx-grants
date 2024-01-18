@@ -4,7 +4,7 @@ import { Header } from '../components/Header/Header';
 import { Creation } from '../components/Creation/Creation';
 import { Footer } from '../components/Footer/Footer';
 import { Card } from '../components/Card/Card';
-
+import './index.css';
 export const DiscoversPage = () => {
   return (
     <div>
@@ -17,7 +17,7 @@ export const DiscoversPage = () => {
           as ideas popup.
         </p>
         <div className="discovers__filter">
-          <button className="discovers__btn">All</button>
+          <button className="discovers__btn button1">All</button>
           <button className="discovers__btn">Open</button>
           <button className="discovers__btn">Funded</button>
           <button className="discovers__btn">Completed</button>
