@@ -26,7 +26,15 @@
   padding: 40px 0 80px;
   margin: 0 auto;
 }
-.discovers__btn {
+.funded__filter {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding: 40px 80px 80px;
+  max-width: 989px;
+}
+.discovers__btn,
+.funded__btn {
   display: flex;
   padding: 12px 16px;
   justify-content: space-between;
@@ -34,7 +42,8 @@
   gap: 4px;
   background-color: #1c1c28;
 }
-.discovers__btn:hover {
+.discovers__btn:hover,
+.funded__btn:hover {
   background: #393953;
 }
 
