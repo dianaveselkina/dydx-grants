@@ -6,6 +6,7 @@ import { Footer } from '../components/Footer/Footer';
 
 import './index.css';
 import { FundedCard } from '../components/FundedCard/FundedCard';
+import { Switch } from '../components/Switch/Switch';
 export const FundedGrantsPage = () => {
   return (
     <div>
@@ -19,6 +20,10 @@ export const FundedGrantsPage = () => {
           <button className="funded__btn">Growth / Marketing</button>
           <button className="funded__btn">Analytics</button>
           <button className="funded__btn">Third Party Provider</button>
+        </div>
+        <div className="funded__switch">
+          <Switch />
+          <p>Show only completed</p>
         </div>
         <div className="funded__cards">
           <FundedCard />
