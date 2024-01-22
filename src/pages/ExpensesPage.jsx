@@ -1,10 +1,10 @@
 import React from 'react';
 import { Header } from '../components/Header/Header';
-
 import { Creation } from '../components/Creation/Creation';
 import { Footer } from '../components/Footer/Footer';
-
+import { ExpensesCard } from '../components/ExpensesCard/ExpensesCard';
 import './index.css';
+
 export const ExpensesPage = () => {
   return (
     <div>
@@ -18,7 +18,18 @@ export const ExpensesPage = () => {
           <button className="discovers__btn">Completed</button>
         </div>
 
-        <div className="discovers__cards"></div>
+        <div className="discovers__cards">
+          <ExpensesCard />
+          <ExpensesCard />
+          <ExpensesCard />
+          <ExpensesCard />
+          <ExpensesCard />
+          <ExpensesCard />
+          <ExpensesCard />
+          <ExpensesCard />
+          <ExpensesCard />
+          <ExpensesCard />
+        </div>
       </div>
       <Creation />
       <Footer />
