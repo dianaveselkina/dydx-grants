@@ -22,7 +22,7 @@ export const Header = () => {
                 <Link to="/funded">Funded grants</Link>
               </li>
               <li>
-                <a href="/">Program expenses</a>
+                <Link to="/expenses">Program expenses</Link>
               </li>
               <li>
                 <a href="/">Blog</a>
