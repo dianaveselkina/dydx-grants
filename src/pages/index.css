@@ -69,3 +69,9 @@
   align-items: center;
   padding: 24px 76px 104px 76px;
 }
+.filter1 {
+  padding: 40px 0 80px;
+}
+.expenses__cards {
+  padding-bottom: 0;
+}

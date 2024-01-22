@@ -1,0 +1,24 @@
+.expenses__card {
+  max-width: 808px;
+  height: 144px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 16px;
+  border: 1px solid #fff;
+  background: #393953;
+  padding: 24px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.expenses__selling {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.expenses__price {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.discovers__cards {
+}
