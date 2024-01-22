@@ -5,6 +5,7 @@ import { Creation } from '../components/Creation/Creation';
 import { Footer } from '../components/Footer/Footer';
 
 import './index.css';
+import { FundedCard } from '../components/FundedCard/FundedCard';
 export const FundedGrantsPage = () => {
   return (
     <div>
@@ -19,7 +20,17 @@ export const FundedGrantsPage = () => {
           <button className="funded__btn">Analytics</button>
           <button className="funded__btn">Third Party Provider</button>
         </div>
-        <div className="funded__cards"></div>
+        <div className="funded__cards">
+          <FundedCard />
+          <FundedCard />
+          <FundedCard />
+          <FundedCard />
+          <FundedCard />
+          <FundedCard />
+          <FundedCard />
+          <FundedCard />
+          <FundedCard />
+        </div>
       </div>
       <Creation />
       <Footer />

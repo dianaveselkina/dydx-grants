@@ -1,0 +1,14 @@
+.fundedcard__wrapper {
+  position: relative;
+  display: flex;
+  max-width: 392px;
+  height: 560px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 16px;
+  border: 0.1px solid #a59eba;
+  gap: 24px;
+  background: #393953;
+  padding: 24px;
+  margin-bottom: 80px;
+}
