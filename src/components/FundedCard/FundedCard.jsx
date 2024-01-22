@@ -5,7 +5,7 @@ export const FundedCard = () => {
   return (
     <div className="fundedcard__wrapper">
       <p className="fundedcard__text">Crowdfund</p>
-      <h3>Funding rates page</h3>
+      <h3 className="fundedcard__title">Funding rates page</h3>
       <p className="fundedcard__text">Funding amount: $5,000 - $6,000</p>
       <p className="fundedcard__info">
         Grant will be used to build a dedicated web app to give traders a view
