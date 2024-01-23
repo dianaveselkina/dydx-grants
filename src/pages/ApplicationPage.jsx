@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header } from '../components/Header/Header';
-
+import { Form } from '../components/Form/Form';
 import { Footer } from '../components/Footer/Footer';
 import './index.css';
 
@@ -14,6 +14,7 @@ export const ApplicationPage = () => {
           Please complete the application below for Grant consideration! Learn
           more about the criteria used for selecting grants.
         </p>
+        <Form />
       </div>
       <Footer />
     </div>
