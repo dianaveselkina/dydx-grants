@@ -141,7 +141,98 @@ export const QuestionsPage = () => {
           </Accordion>
         </div>
         <div className="frequently__block">
-          <h3 className="application__denotation">Selection criteria</h3>
+          <h3 className="selection__denotation">Selection criteria</h3>
+          <Accordion className="questions__accordion">
+            <AccordionItem
+              header={
+                <div>
+                  <p className="questions__title">
+                    What is the dYdX Grants Trust?
+                  </p>
+                </div>
+              }
+            >
+              <div>
+                <p className="questions__text">
+                  Fill out this application form. The application will only be
+                  shared with the Grants lead and members of the committee. The
+                  Lead will contact you directly if the application is
+                  successfully considered for a Grant.
+                </p>
+              </div>
+            </AccordionItem>
+            <AccordionItem
+              header={
+                <div>
+                  <p className="questions__title">Where are funds held?</p>
+                </div>
+              }
+            >
+              <div>
+                <p className="questions__text">
+                  Fill out this application form. The application will only be
+                  shared with the Grants lead and members of the committee. The
+                  Lead will contact you directly if the application is
+                  successfully considered for a Grant.
+                </p>
+              </div>
+            </AccordionItem>
+            <AccordionItem
+              header={
+                <div>
+                  <p className="questions__title">
+                    When was the program launched?
+                  </p>
+                </div>
+              }
+            >
+              <div>
+                <p className="questions__text">
+                  Fill out this application form. The application will only be
+                  shared with the Grants lead and members of the committee. The
+                  Lead will contact you directly if the application is
+                  successfully considered for a Grant.
+                </p>
+              </div>
+            </AccordionItem>
+            <AccordionItem
+              header={
+                <div>
+                  <p className="questions__title">Who are the Trustees?</p>
+                </div>
+              }
+            >
+              <div>
+                <p className="questions__text">
+                  Fill out this application form. The application will only be
+                  shared with the Grants lead and members of the committee. The
+                  Lead will contact you directly if the application is
+                  successfully considered for a Grant.
+                </p>
+              </div>
+            </AccordionItem>
+            <AccordionItem
+              header={
+                <div>
+                  <p className="questions__title title1">
+                    What and who is the Enforcer?
+                  </p>
+                </div>
+              }
+            >
+              <div>
+                <p className="questions__text">
+                  Fill out this application form. The application will only be
+                  shared with the Grants lead and members of the committee. The
+                  Lead will contact you directly if the application is
+                  successfully considered for a Grant.
+                </p>
+              </div>
+            </AccordionItem>
+          </Accordion>
+        </div>
+        <div className="frequently__block">
+          <h3 className="selection__denotation">The Grants Trust</h3>
           <Accordion className="questions__accordion">
             <AccordionItem
               header={
