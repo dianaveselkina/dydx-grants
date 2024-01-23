@@ -13,9 +13,10 @@ export const ExpensesPage = () => {
         <h1 className="discovers__title">Program expenses</h1>
         <div className="discovers__filter filter1">
           <button className="discovers__btn">All</button>
-          <button className="discovers__btn">Open</button>
-          <button className="discovers__btn">Funded</button>
-          <button className="discovers__btn">Completed</button>
+          <button className="discovers__btn">Category</button>
+          <button className="discovers__btn">Category</button>
+          <button className="discovers__btn">Category</button>
+          <button className="discovers__btn">Category</button>
         </div>
         <div className="discovers__cards expenses__cards">
           <ExpensesCard />
