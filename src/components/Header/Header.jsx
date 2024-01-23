@@ -28,7 +28,7 @@ export const Header = () => {
                 <Link to="/blog">Blog</Link>
               </li>
               <li>
-                <a href="/">FAQ</a>
+                <Link to="/questions">FAQ</Link>
               </li>
               <Link to="/application">
                 <Button text="Apply for grant" />
