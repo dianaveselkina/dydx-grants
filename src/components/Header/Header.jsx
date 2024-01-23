@@ -14,7 +14,7 @@ export const Header = () => {
             <Logo />
           </Link>
           <nav className="header__nav">
-            <ul class="nav__list">
+            <ul className="nav__list">
               <li>
                 <Link to="/discovers">Discover initiatives</Link>
               </li>
