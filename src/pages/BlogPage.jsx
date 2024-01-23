@@ -4,6 +4,7 @@ import { Header } from '../components/Header/Header';
 import { Footer } from '../components/Footer/Footer';
 
 import './index.css';
+import { NewCard } from '../components/NewCard/NewCard';
 
 export const BlogPage = () => {
   return (
@@ -17,7 +18,14 @@ export const BlogPage = () => {
           <button className="blog__btn">Spotlight</button>
           <button className="blog__btn">News & updates</button>
         </div>
-        <div className="discovers__cards expenses__cards"></div>
+        <div className="blog__cards">
+          <NewCard />
+          <NewCard />
+          <NewCard />
+          <NewCard />
+          <NewCard />
+          <NewCard />
+        </div>
         <div className="blog__loading">
           <button className="blog__btn">Load more posts</button>
         </div>

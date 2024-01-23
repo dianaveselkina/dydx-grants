@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import { NewCard } from '../NewCard/NewCard';
 
 export const News = () => {
   return (
@@ -16,22 +17,8 @@ export const News = () => {
           </button>
         </div>
         <div className="news__cards">
-          <div className="news__card">
-            <div className="new__image"></div>
-            <div className="news__wrapper">
-              <p className="news__text1">Funding round</p>
-              <h3>Round 9 of approvals</h3>
-              <p className="news__text1">January 1, 2022</p>
-            </div>
-          </div>
-          <div className="news__card">
-            <div className="new__image1"></div>
-            <div className="news__wrapper">
-              <p className="news__text1">Funding round</p>
-              <h3>Round 8 of approvals</h3>
-              <p className="news__text1">January 1, 2022</p>
-            </div>
-          </div>
+          <NewCard />
+          <NewCard />
         </div>
       </div>
     </div>
