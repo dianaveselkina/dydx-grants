@@ -10,14 +10,17 @@ export const BlogPage = () => {
     <div>
       <Header />
       <div className="container">
-        <h1 className="discovers__title">Blog</h1>
-        <div className="discovers__filter filter1">
-          <button className="discovers__btn">Latest</button>
-          <button className="discovers__btn">Funding round</button>
-          <button className="discovers__btn">Spotlight</button>
-          <button className="discovers__btn">News & updates</button>
+        <h1 className="blog__title">Blog</h1>
+        <div className="blog__filter">
+          <button className="blog__btn">Latest</button>
+          <button className="blog__btn">Funding round</button>
+          <button className="blog__btn">Spotlight</button>
+          <button className="blog__btn">News & updates</button>
         </div>
         <div className="discovers__cards expenses__cards"></div>
+        <div className="blog__loading">
+          <button className="blog__btn">Load more posts</button>
+        </div>
       </div>
       <Footer />
     </div>
