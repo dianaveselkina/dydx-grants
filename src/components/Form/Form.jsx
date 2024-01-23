@@ -4,39 +4,49 @@ export const Form = () => {
   return (
     <div className="form">
       <form>
-        <div className="application__form">
-          <label class="form__label">
-            <span>Name *</span>
+        <h2 className="form__title">Grant application</h2>
+        <div className="application__forms">
+          <div className="application__form">
+            <label class="form__label"></label>
+            <p className="form__text">Name *</p>
             <input class="create__input" type="text" name="name" />
-          </label>
-        </div>
-        <div className="application__form">
-          <label class="form__label">
-            <span>Email *</span>
-            <span>Primary contact if applying as a team/company</span>
+          </div>
+          <div className="application__form">
+            <label class="form__label">
+              <p className="form__text">Email *</p>
+              <p className="form__text">
+                Primary contact if applying as a team/company
+              </p>
+            </label>
             <input class="create__input" type="email" name="email" />
-          </label>
-        </div>
-        <div className="application__form">
-          <label class="form__label">
-            <span>About you *</span>
-            <span>Tell us about yourself and/or your tram</span>
+          </div>
+          <div className="application__form">
+            <label class="form__label">
+              <p className="form__text">About you *</p>
+              <p className="form__text">
+                Tell us about yourself and/or your tram
+              </p>
+            </label>
             <textarea
               class="create__input"
               type="email"
               name="email"
             ></textarea>
-          </label>
-        </div>
-        <div className="application__form">
-          <label class="form__label">
-            <span>Additional Links</span>
-            <span>
-              If helpful, please share any links about you (e.g Website, Github,
-              Twitter)
-            </span>
-            <textarea class="form__label" type="text" name="message"></textarea>
-          </label>
+          </div>
+          <div className="application__form">
+            <label class="form__label">
+              <p className="form__text">Additional Links</p>
+              <p className="form__text">
+                If helpful, please share any links about you (e.g Website,
+                Github, Twitter)
+              </p>
+            </label>
+            <textarea
+              class="create__input"
+              type="text"
+              name="message"
+            ></textarea>
+          </div>
         </div>
       </form>
     </div>
