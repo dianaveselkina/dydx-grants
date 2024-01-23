@@ -1,10 +1,8 @@
 import React from 'react';
 import { Header } from '../components/Header/Header';
-
-import { Footer } from '../components/Footer/Footer';
-
-import './index.css';
 import { NewCard } from '../components/NewCard/NewCard';
+import { Footer } from '../components/Footer/Footer';
+import './index.css';
 
 export const BlogPage = () => {
   return (

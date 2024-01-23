@@ -30,7 +30,9 @@ export const Header = () => {
               <li>
                 <a href="/">FAQ</a>
               </li>
-              <Button text="Apply for grant" />
+              <Link to="/application">
+                <Button text="Apply for grant" />
+              </Link>
             </ul>
           </nav>
         </div>
