@@ -42,22 +42,3 @@ button {
   max-width: 1440px;
   padding: 0 2rem 0 2rem;
 }
-.application__title {
-  text-align: center;
-  font-family: 'Circular Std';
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 72px;
-}
-.application__text {
-  text-align: center;
-  font-family: 'Circular Std';
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 450;
-  line-height: 24px;
-  max-width: 490px;
-  margin: 0 auto;
-  padding: 24px 0 40px;
-}
