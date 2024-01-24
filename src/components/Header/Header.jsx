@@ -1,11 +1,13 @@
 import React from 'react';
 import { ReactComponent as Logo } from './img/Logo.svg';
+import { ReactComponent as Menu } from './img/menu-icon.svg';
 import { Button } from '../Button/Button';
 import { Link } from 'react-router-dom';
-
+import { useState } from 'react';
 import './index.css';
 
 export const Header = () => {
+  const [open, SetOpen] = useState();
   return (
     <header className="header">
       <div className="container">
@@ -13,7 +15,7 @@ export const Header = () => {
           <Link to="/">
             <Logo />
           </Link>
-          <nav className="header__nav">
+          <nav className={`header__nav ${open ? 'active' : ''}`}>
             <ul className="nav__list">
               <li>
                 <Link to="/discovers">Discover initiatives</Link>
@@ -35,6 +37,9 @@ export const Header = () => {
               </Link>
             </ul>
           </nav>
+          <button className="header__menu" onClick={() => SetOpen(!open)}>
+            <Menu />
+          </button>
         </div>
       </div>
     </header>
