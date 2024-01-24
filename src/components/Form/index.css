@@ -20,7 +20,7 @@
   height: 818px;
   background-color: #fff;
   border-radius: 16px;
-  padding: 108px;
+  padding: 10% 10%;
 }
 .application__form {
   display: flex;
@@ -28,8 +28,9 @@
 }
 .form__text {
   color: #000;
-  padding-bottom: 10px;
+  padding-bottom: 2%;
 }
 .create__input {
   padding: 12px;
+  max-width: 600px;
 }

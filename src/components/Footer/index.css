@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 160px 80px 49px;
+  align-items: center;
 }
 .footer__logo {
   display: flex;
@@ -14,6 +15,12 @@
   display: flex;
   flex-direction: row;
   gap: 32px;
+}
+.nav__list-footer {
+  display: flex;
+  flex-direction: row;
+  padding: 32px 0 24px;
+  gap: 24px;
 }
 .footer__link {
   display: flex;
