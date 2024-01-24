@@ -95,3 +95,12 @@
   height: 40px;
   margin-top: 140px;
 }
+@media (max-width: 576px) {
+  .card1 {
+    display: none;
+  }
+  .featured__cards {
+    display: flex;
+    justify-content: center;
+  }
+}

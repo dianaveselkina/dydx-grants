@@ -41,7 +41,8 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding-top: 118px;
+    padding-top: 80px;
+    align-items: center;
   }
   .header__menu {
     display: block;
@@ -50,6 +51,6 @@
     height: 24px;
     background-color: transparent;
     padding: 0;
-    bottom: 0;
+    border: 0;
   }
 }

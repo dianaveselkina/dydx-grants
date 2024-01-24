@@ -39,3 +39,22 @@
   font-weight: 400;
   line-height: 24px;
 }
+@media (max-width: 576px) {
+  .hero__title {
+    text-align: center;
+    font-family: 'Circular Std';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+  }
+  .hero__btn {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero__info {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
