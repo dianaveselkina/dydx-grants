@@ -22,7 +22,7 @@
 .featured__cards {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .featured__card {
   position: relative;
@@ -96,7 +96,7 @@
   margin-top: 140px;
 }
 @media (max-width: 576px) {
-  .card1 {
+  .card11 {
     display: none;
   }
   .featured__cards {

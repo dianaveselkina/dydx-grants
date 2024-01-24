@@ -29,7 +29,7 @@ export const Featured = () => {
             </p>
             <div className="card__avatar1"></div>
           </div>
-          <div className="featured__card card1">
+          <div className="featured__card card11">
             <div className="card__empty"></div>
             <div className="featured__wrapper">
               <p className="card__text">Edition</p>
@@ -44,7 +44,7 @@ export const Featured = () => {
             </div>
             <div className="card__avatar2"></div>
           </div>
-          <div className="featured__card card1">
+          <div className="featured__card card11">
             <p className="card__text">Entry</p>
             <h3>Rewards optimization research and paper</h3>
             <p className="card__text">Funding amount: $5,000 - $6,000</p>

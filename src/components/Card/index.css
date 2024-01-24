@@ -22,3 +22,19 @@
   font-weight: 700;
   line-height: 32px;
 }
+@media (max-width: 576px) {
+  .card__wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 248px;
+    max-width: 272px;
+    gap: 1px;
+  }
+  .card__title {
+    font-family: 'Circular Std';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+  }
+}
