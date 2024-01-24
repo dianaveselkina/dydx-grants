@@ -22,7 +22,7 @@
 .featured__cards {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .featured__card {
   position: relative;
