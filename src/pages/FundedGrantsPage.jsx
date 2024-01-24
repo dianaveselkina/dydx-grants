@@ -15,11 +15,11 @@ export const FundedGrantsPage = () => {
         <h1 className="funded__title">Funded grants</h1>
         <div className="funded__filter">
           <button className="funded__btn">All</button>
-          <button className="funded__btn">Technical / Tool Development</button>
-          <button className="funded__btn">Governance</button>
-          <button className="funded__btn">Growth / Marketing</button>
-          <button className="funded__btn">Analytics</button>
-          <button className="funded__btn">Third Party Provider</button>
+          <button className="funded__btn ">Technical / Tool Development</button>
+          <button className="funded__btn button1">Governance</button>
+          <button className="funded__btn button1">Growth / Marketing</button>
+          <button className="funded__btn button1">Analytics</button>
+          <button className="funded__btn button1">Third Party Provider</button>
         </div>
         <div className="funded__switch">
           <Switch />

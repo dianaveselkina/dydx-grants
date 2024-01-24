@@ -59,7 +59,6 @@
   display: grid;
   justify-items: center;
   grid-template-columns: repeat(auto-fit, minmax(392px, 1fr));
-  grid-template-rows: repeat(3, 1fr);
   gap: 24px;
   padding: 0 76px 160px 76px;
 }
@@ -170,4 +169,12 @@
 }
 .selection__denotation {
   padding: 80px 0 40px;
+}
+@media (max-width: 576px) {
+  .button1 {
+    display: none;
+  }
+  .funded__cards {
+    padding: 0 0 80px;
+  }
 }
