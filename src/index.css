@@ -45,7 +45,7 @@ button {
 @media (width < 480px) {
   .container {
     background-color: #1c1c28;
-    max-width: 576px;
+    width: 100%;
     padding: 0 1.5rem 0 1.5rem;
   }
 }
