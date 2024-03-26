@@ -15,7 +15,7 @@ export const Header = () => {
           <Link to="/">
             <Logo />
           </Link>
-          <nav className={`header__nav ${open ? 'active' : ''}`}>
+          <nav className={`header__nav ${open ? '' : 'active'}`}>
             <ul className="nav__list">
               <li>
                 <Link to="/discovers">Discover initiatives</Link>

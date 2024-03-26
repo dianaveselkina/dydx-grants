@@ -20,7 +20,7 @@
   flex-direction: row;
   gap: 16px;
 }
-@media (max-width: 576px) {
+@media (width < 480px) {
   .expenses__card {
     max-width: 272px;
     height: 172px;

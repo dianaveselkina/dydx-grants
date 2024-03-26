@@ -9,6 +9,7 @@
 .header__wrapper {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   padding: 24px 0;
 }
@@ -21,7 +22,7 @@
 .header__menu {
   display: none;
 }
-@media (max-width: 576px) {
+@media (width < 480px) {
   .header__nav {
     position: fixed;
     top: 118px;

@@ -95,7 +95,7 @@
   height: 40px;
   margin-top: 140px;
 }
-@media (max-width: 576px) {
+@media (width < 480px) {
   .card11 {
     display: none;
   }
