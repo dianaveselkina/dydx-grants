@@ -42,7 +42,7 @@ button {
   max-width: 1440px;
   padding: 0 2rem 0 2rem;
 }
-@media (max-width: 576px) {
+@media (width < 480px) {
   .container {
     background-color: #1c1c28;
     max-width: 576px;
